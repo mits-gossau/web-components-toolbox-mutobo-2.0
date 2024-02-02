@@ -208,6 +208,11 @@
       selector: 'third-party-',
       url: 'web-components-toolbox/src/es/components/thirdParty/',
       separateFolder: true
+    },
+    {
+      selector: 'o-custom-',
+      url: 'organisms/',
+      separateFolder: true
     }
   ] // directories
   // ↑↑↑ adjustable ↑↑↑
