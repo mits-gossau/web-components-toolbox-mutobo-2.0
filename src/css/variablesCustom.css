@@ -6,8 +6,8 @@
   */
 
 :root {
-  --background-color: #fffef4;
-  --emotion-pictures-default-img-max-height: 50vh;
+  --background-color: var(--m-white);
+  --emotion-pictures-default-img-max-height: 55vh;
   --emotion-pictures-with-button-img-max-height: var(--emotion-pictures-default-img-max-height);
   --emotion-pictures-with-logo-img-max-height: var(--emotion-pictures-default-img-max-height);
   --emotion-pictures-with-title-img-max-height: var(--emotion-pictures-default-img-max-height);
@@ -29,4 +29,9 @@
   --title-border-display: none;
   /* !!! see home.html > footer !!!  */
   --custom-button-background-color:yellow;
+  --navigation-two-color-custom:var(--m-black);
+  --navigation-two-default-justify-content:flex-end;
+  --navigation-two-default-a-link-content-spacing:0 2rem;
+  --navigation-two-default-padding:1.25em;
+  --a-emotion-pictures-margin-top-first-child:0;
 }
