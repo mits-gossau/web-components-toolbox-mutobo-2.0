@@ -1,0 +1,13 @@
+:host {
+  --footer-custom-invert-a-color-hover: var(--footer-custom-invert-a-color-hover-custom, var(--color-hover));
+  --footer-custom-invert-background-color: red !important;
+  --footer-custom-invert-color-hover: var(--footer-custom-invert-color-hover-custom, var(--color-hover));
+  --footer-custom-invert-color: var(--footer-custom-invert-color-custom, var(--background-color));
+  --footer-custom-invert-orange-a-color-hover: var(--footer-custom-invert-orange-a-color-hover-custom, var(--color-hover));
+  --footer-custom-invert-orange-a-color: var(--footer-custom-invert-orange-a-color-custom, var(--footer-custom-invert-color));
+  --footer-custom-invert-orange-background-color: green;
+  --footer-custom-invert-orange-color: var(--footer-custom-invert-orange-color-custom, var(--footer-custom-invert-color));
+}
+.custom-css {
+  font-size: 40px !important;
+}
