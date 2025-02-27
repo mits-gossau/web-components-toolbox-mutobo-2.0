@@ -19,9 +19,10 @@
   --footer-default-invert-svg-color-custom: var(--background-color);
   --footer-default-invert-svg-color-hover-custom: var(--color-tertiary);
   --h-color: var(--color-secondary);
-  --header-default-a-logo-top-custom: calc(60.5px / 2 - 88px / 2);
-  --header-default-a-logo-top-mobile-custom: -0.5em;
-  --header-default-logo-width-custom: min(9em, 138px);
+  /* --header-default-a-logo-top-custom: calc(62px / 2 - 120px / 2);
+  --header-default-a-logo-top-mobile-custom: 0; */
+  --header-default-logo-width-custom: 120px;
+  --header-default-a-menu-icon-background-color-custom: var(--color-secondary);
   --picture-close-btn-background-color:var(--color-secondary);
   --search-input-width-big:100%;
   --teaser-round-figcaption-color: var(--color-secondary);
@@ -29,9 +30,10 @@
   --title-border-display: none;
   /* !!! see home.html > footer !!!  */
   --custom-button-background-color:yellow;
-  --navigation-two-color-custom:var(--m-black);
-  --navigation-two-default-justify-content:flex-end;
-  --navigation-two-default-a-link-content-spacing:0 2rem;
-  --navigation-two-default-padding:1.25em;
+  --navigation-default-color-custom:var(--m-black);
+  --navigation-default-default-justify-content:flex-end;
+  --navigation-default-default-a-link-content-spacing:0 2rem;
+  --navigation-default-default-padding:1.25em;
   --a-emotion-pictures-margin-top-first-child:0;
+  --header-default-background-color-custom: var(--m-white);
 }
